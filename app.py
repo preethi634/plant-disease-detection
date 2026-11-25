@@ -28,9 +28,7 @@ st.info("Supported plants: Tomato, Potato and Bell Pepper.")
 # 2. LOAD TRAINED MODEL AND CLASS NAMES
 # --------------------------------------------------
 
-MODEL_PATH = (
-    "models/mobilenetv2/plant_disease_mobilenetv2_final.keras"
-)
+MODEL_PATH = "models/plant_disease_mobilenetv2_final.keras"
 CLASS_NAMES_PATH = "models/class_names.json"
 
 
